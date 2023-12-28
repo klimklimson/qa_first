@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class AppleTest {
     private final static String Base_URL = "https://appleinsider.ru/";
     private final static String SEARCH_STRING = "Чем iPhone 13 отличается от iPhone 12";
+    private final static String S = "Selenium";
 
 
     @Test
