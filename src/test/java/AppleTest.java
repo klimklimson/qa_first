@@ -19,8 +19,8 @@ public class AppleTest {
                 .getHrefFromFirstArticle()
                 .contains("iphone-13"));
 
-//        open("https://www.google.com/");
-//        $x("//textarea[@name='q']").setValue("Selenium").pressEnter();
-//        $x("//div[@id='result-stats']").shouldBe(Condition.visible);
+        open("https://www.google.com/");
+        $x("//textarea[@name='q']").setValue("Selenium").pressEnter();
+        $x("//div[@id='result-stats']").shouldBe(Condition.visible);
     }
 }
